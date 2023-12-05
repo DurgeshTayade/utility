@@ -1,4 +1,3 @@
-
 import './App.css';
 // import'./Components/NavBar.jsx'
 import Nav from './Components/Nav.jsx'
@@ -7,17 +6,18 @@ import Education from './Components/Education.jsx'
 import Technology from './Components/Technology.jsx'
 import Projects from './Components/Projects.jsx'
 import Footer from './Components/Footer.jsx'
-function App() {
+function App(){
   return (
     <div className='text-center'>
-      <>
-      <Nav/>
+    <>
+    
+    <Nav/>
       <Home/>
       <Education/>
       <Technology/>
       <Projects/>
       <Footer/>
-      </>
+    </>
     </div>
   );
 }

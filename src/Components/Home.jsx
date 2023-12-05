@@ -14,6 +14,6 @@ function Home(){
             <a href={whatapps_massage} className='btn btn-denger'>contact on WhatApp</a>
             </div>
     </div>
-)
-}
+    )
+   }
 export default Home;
